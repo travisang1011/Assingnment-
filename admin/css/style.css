@@ -1,0 +1,153 @@
+body{
+	padding:0;
+	margin:0;
+	font-family: Segoe UI;
+}
+.kotak{
+	background-color: #03a9f4;
+	padding:125px;
+	padding-top:275px;
+	padding-bottom:321.5px;
+	color:white;
+	text-align: center;
+}
+.kotak label{
+	font-weight: bold;
+}
+
+.kotak input{
+	width: 225px;
+	padding:7px;
+	outline: none;
+	padding-left:13px;
+	padding-right:13px;
+	border:1px solid #ccc;
+
+}
+.kotak input:focus{
+	border:1px solid #0277bd;
+}
+.kotak button{
+	background-color: white;
+	color:#0277bd;
+	border:none;
+	padding:17px;
+	padding-left:27px;
+	padding-right:27px;
+	cursor: pointer;
+}
+.header{
+	background-color: #03a9f4;
+	padding:3px;
+	text-align: right;
+	padding-right: 25px;
+}
+.header ul li{
+	display:inline;
+	color:white;
+}
+.header ul li a{
+	text-decoration: none;
+	color:white;
+}
+.header ul li a:hover{
+	text-decoration: underline;
+}
+.sidebar{
+	background-color: #1565c0;
+	padding:5px;
+	position: absolute;
+	width:195px;
+	height:1250px;
+}
+.sidebar ul li{
+	display: block;
+	margin:5px;
+	padding:3px;
+}
+.sidebar ul li a{
+	text-decoration: none;
+	color:white;
+}
+.footer{
+}
+.konten{
+	margin-left:215px;
+	margin-top:5px;
+
+}
+.sidebar ul li:hover{
+	background-color: #0d47a1;
+}
+.tampil table{
+	width:100%;
+	border-collapse: collapse;
+	text-align: center;
+}
+.tampil > tr{
+	border:1px solid #ccc;
+	padding:3px;
+}
+.tampil  td{
+	border:1px solid #ccc;
+	padding:3px;
+}
+.tampil th{
+	border:1px solid #ccc;
+	padding:3px;
+}
+.tampil > table{
+	border:1px solid #ccc;
+	padding:3px;
+}
+.link{
+		text-decoration: none;
+	color:white;
+	background-color: #03a9f4;
+	padding:3px;
+	padding-left:19px;
+	padding-right:19px;
+}
+.tampil > a{
+	text-decoration: none;
+	color:white;
+	background-color: #03a9f4;
+	padding:7px;
+	padding-left:19px;
+	padding-right:19px;
+}
+.form table{
+	width:50%;
+}
+.form input{
+	outline: none;
+	border:1px solid #ccc;
+	padding:7px;
+	width:235px;
+}
+.form select{
+	outline: none;
+	border:1px solid #ccc;
+	padding:7px;
+	width:251px;
+}
+.form input:focus,select:focus{
+	border:1px solid #03a9f4;
+}
+.form button{
+	text-decoration: none;
+	color:white;
+	background-color: #03a9f4;
+	padding:7px;
+	padding-left:19px;
+	padding-right:19px;
+	cursor: pointer;
+	border:none;
+}
+.footer{
+	position: absolute;
+	color:white;
+	background-color: #03a9f4;
+	padding-left:41px;
+	padding-right:41px;
+}
